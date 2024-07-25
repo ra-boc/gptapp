@@ -79,8 +79,8 @@ void Main()
 
 	// API キーは秘密にする。
 	// 誤って API キーをコミットしないよう、環境変数に API キーを設定すると良い（適用には PC の再起動が必要）
-	//const String API_KEY = apikey::getapikey();
-	const String API_KEY = U"sk-proj-v3MkWoYqby8LIGInRdgOT3BlbkFJTDvttkav8277RaIPOU5c";
+	const String API_KEY = apikey::getapikey();
+	//const String API_KEY = U"api_key";
 
 	// 物語のキーワードを入力するテキストボックス
 	std::array<TextEditState, 4> keywords;
